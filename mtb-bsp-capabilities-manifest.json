@@ -1,0 +1,455 @@
+{
+   "capabilities": [
+      {
+         "category": "Hardware Blocks",
+         "description": "This device contains at least one programmable Analog to Digital Converter block.",
+         "name": "adc",
+         "token": "adc",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Miscellaneous",
+         "description": "This board has been tested with anycloud code examples.",
+         "name": "anycloud",
+         "token": "anycloud",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This board supports audio over Bluetooth.",
+         "name": "audio",
+         "token": "audio",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This chip supports Bluetooth Low Energy networking.",
+         "name": "ble",
+         "token": "ble",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This chip supports Bluetooth Classic (Basic Rate / Enhanced Data Rate).",
+         "name": "br_edr",
+         "token": "br_edr",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "BSP",
+         "description": "This board support package is from the fourth generation of BSPs supported by ModusToolbox.",
+         "name": "bsp_gen4",
+         "token": "bsp_gen4",
+         "types": [
+            "generation"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This chip supports Bluetooth.",
+         "name": "bt",
+         "token": "bt",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This chip is supported by the Infineon Bluetooth Software Development Kit.",
+         "name": "btsdk",
+         "token": "btsdk",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Software/Firmware Support",
+         "description": "This board supports BTSTACK 1.0 code, used by older board support packages.",
+         "name": "btstack10",
+         "token": "btstack10",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Software/Firmware Support",
+         "description": "This board supports BTSTACK 3.0 code, used by newer board support packages.",
+         "name": "btstack30",
+         "token": "btstack30",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains at least one button.",
+         "name": "button",
+         "token": "button",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one Controller Area Network block.",
+         "name": "can",
+         "token": "can",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the CAT1 family (PSoC 6, XMC7200, etc).",
+         "name": "cat1",
+         "token": "cat1",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the CAT1A family (PSoC 6, FX3G2).",
+         "name": "cat1a",
+         "token": "cat1a",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one Compare Capture Unit from the ccu4 family.",
+         "name": "ccu4",
+         "token": "ccu4",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one Compare Capture Unit from the ccu8 family.",
+         "name": "ccu8",
+         "token": "ccu8",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one analog comparator block.",
+         "name": "comp",
+         "token": "comp",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip supports capacitive sensing using a Delta-Sigma Modulator.",
+         "name": "csd",
+         "token": "csd",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the 43439 family.",
+         "name": "cyw43439",
+         "token": "cyw43439",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Digital to Analog Converter block.",
+         "name": "dac",
+         "token": "dac",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable DMA block.",
+         "name": "dma",
+         "token": "dma",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip has 1024K of flash memory.",
+         "name": "flash_1024k",
+         "token": "flash_1024k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Software/Firmware Support",
+         "description": "This board supports FW2 firmware.",
+         "name": "fw2",
+         "token": "fw2",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Software/Firmware Support",
+         "description": "This chip is supported by the Infineon Hardware Abstraction Layer.",
+         "name": "hal",
+         "token": "hal",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Inter-Integrated Circuit block.",
+         "name": "i2c",
+         "token": "i2c",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Inter-IC Sound block.",
+         "name": "i2s",
+         "token": "i2s",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Improved Inter-Integration Circuit block.",
+         "name": "i3c",
+         "token": "i3c",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains at least one user-controllable LED.",
+         "name": "led",
+         "token": "led",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Miscellaneous",
+         "description": "This chip is capable of running in low-power mode.",
+         "name": "low_power",
+         "token": "low_power",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Low-Power Timer block.",
+         "name": "lptimer",
+         "token": "lptimer",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is a general-purpose MCU.",
+         "name": "mcu_gp",
+         "token": "mcu_gp",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This board contains external memory accessible over QSPI.",
+         "name": "memory_qspi",
+         "token": "memory_qspi",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This board contains at least one memory device that is NOR flash.",
+         "name": "nor_flash",
+         "token": "nor_flash",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This board supports firmware updates Over-The-Air using Bluetooth.",
+         "name": "ota",
+         "token": "ota",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip is capable of supporting Pulse-Density Modulated microphones.",
+         "name": "pdm",
+         "token": "pdm",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Chip Families",
+         "description": "This chip is in the PSoC 6 family.",
+         "name": "psoc6",
+         "token": "psoc6",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Quad SPI block.",
+         "name": "qspi",
+         "token": "qspi",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Real Time Clock.",
+         "name": "rtc",
+         "token": "rtc",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Authentication",
+         "description": "This chip is capable of booting into a secure environment.",
+         "name": "secure_boot",
+         "token": "secure_boot",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip is capable of accessing Smart I/O capable pins.",
+         "name": "smart_io",
+         "token": "smart_io",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip has at least one programmable Serial Peripheral Interface block.",
+         "name": "spi",
+         "token": "spi",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains Static Random Access Memory.",
+         "name": "sram",
+         "token": "sram",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Memory",
+         "description": "This chip contains 512K of Static Random Access Memory.",
+         "name": "sram_512k",
+         "token": "sram_512k",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Authentication",
+         "description": "This chip supports standard cryptography APIs.",
+         "name": "std_crypto",
+         "token": "std_crypto",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Human Interface Devices",
+         "description": "This board contains at least one switch/button.",
+         "name": "switch",
+         "token": "switch",
+         "types": [
+            "board"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip contains at least one programmable Universal Asynchronous Receiver Transmitter block.",
+         "name": "uart",
+         "token": "uart",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip supports USB device operation.",
+         "name": "usb_device",
+         "token": "usb_device",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip supports USB host operation.",
+         "name": "usb_host",
+         "token": "usb_host",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Hardware Blocks",
+         "description": "This chip supports USB power delivery.",
+         "name": "usbpd",
+         "token": "usbpd",
+         "types": [
+            "chip"
+         ]
+      },
+      {
+         "category": "Networking",
+         "description": "This chip supports WiFi.",
+         "name": "wifi",
+         "token": "wifi",
+         "types": [
+            "chip"
+         ]
+      },
+      }
+   ]
+}
