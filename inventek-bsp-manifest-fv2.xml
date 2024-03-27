@@ -1,0 +1,30 @@
+<boards>
+  <board default_location="local">
+    <id>ISM43439-WBP-L151</id>
+    <category>PSoC&#8482; 5 BSPs</category>
+    <board_uri>https://github.com/Inventek/TARGET_ISM4343-WBP-L151</board_uri>
+    <chips>
+      <mcu>CY8C6248FNI-S2D43</mcu>
+      <radio>ISM43439 (CYW43439KUBG)</radio>
+    </chips>
+    <name>ISM43439-WBP-L151</name>
+    <summary><![CDATA[
+    The ISM43439-WBP-L151 EVB PSoC&#8482; 62S2 Evaluation Kit enables you to evaluate and develop applications using PSoC&#8482; 62 MCU. The PSoC&#8482; 62S2 evaluation kit features an M.2 interface that enables you to connect the supported M.2 radio cards based on AIROC&#8482; Wi-Fi/Bluetooth&#174; combo devices. It comes with industry-leading CAPSENSE&#8482; for touch buttons and slider, on-board debugger/programmer with KitProg3, microSD card interface, 512-Mb Quad-SPI NOR flash, PDM-PCM microphone interface, mikroBUS add-on board interface for peripheral expansion, OPTIGA Trust M device.
+    <p><b>Note:</b></p>
+    <p>ISM43439-WBP-L151 EVB is the board support package for the Inventek Systems ISM4343-WBP-L151 SiP; The SiP combines CYW43439 radio and supports PSoC&#8482; 5 MCU examples and Wi-Fi/Bluetooth&#174; connectivity examples.</p>
+    ]]></summary>
+    <prov_capabilities>adc anycloud bt cat1 cat1a comp csd ISM43439-WBP-L151 cyw43439 cyw43xxx dma flash_1024k hal i2c i2s led low_power lptimer mcu_gp memory memory_qspi multi_core nor_flash pdm psoc6 qspi rtc smart_io spi sram_512k std_crypto switch uart usb_device usb_host wifi</prov_capabilities>
+    <description>        &lt;div class="category"&gt;Kit Features:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;Support of up to 2MB Flash and 1MB SRAM&lt;/li&gt;         &lt;li&gt;In package CYW43439&amp;#8482; Wi-Fi/Bluetooth&amp;#174; combo devices.&lt;/li&gt;         &lt;li&gt;mikroBUS add-on board interface for peripheral expansion.&lt;/li&gt;         &lt;li&gt;Delivers dual-cores, with a 150-MHz Arm&amp;#174; Cortex&amp;#174;-M4 as the primary application processor and a 100-MHz Arm&amp;#174; Cortex&amp;#174;-M0+ as the secondary processor for low-power operations.&lt;/li&gt;         &lt;li&gt;Supports Full-Speed USB, capacitive-sensing with CAPSENSE&amp;#8482;, a PDM-PCM digital microphone interface, a Quad- SPI interface, 13 serial communication blocks, 7 programmable analog blocks, and 56 programmable digital blocks.&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class="category"&gt;Kit Contents:&lt;/div&gt;         &lt;ul&gt;         &lt;li&gt;PSoC&amp;#8482; 62S2 Evaluation Board&lt;/li&gt;         &lt;li&gt;Embedded Artists 1YN Wi-Fi/Bluetooth&amp;#174; M.2 radio module&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Four jumper wires (4 inches each)&lt;/li&gt;         &lt;li&gt;Two jumper wires (5 inches each)&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>http://www.inventeksys.com/iwin/wp-content/uploads/ISM43439-WBP-L151-EVB.pdf</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power multi_core rtc">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4 low_power multi_core rtc">
+        <num>4.3.1 release</num>
+        <commit>release-v4.3.1</commit>
+      </version>
+    </versions>
+  </board>
+</boards>
