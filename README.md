@@ -1,1 +1,1 @@
-# mtb-bsp-manifest
+# inventek-bsp-manifest
